@@ -296,7 +296,7 @@ body{
         background-color: #f2f2f2;
         height: 100%;
         width: 100%;
-        margin-top: 170px;
+        margin-top: 155px;
     }
     .content p{
         text-align: center;
@@ -389,7 +389,7 @@ body{
         text-transform: uppercase;
         letter-spacing: 2px;
        font-family:Verdana, Geneva, Tahoma, sans-serif;
-       padding: 0px 0px 0px 170px;
+       padding: 0px 140px 0px 140px;
 
     }
     .dishes{
@@ -423,10 +423,9 @@ body{
         font-weight: 600;
     }
     .dish1 img{
-        height: 500px;
-        width: 100%;
-        /* justify-content: center; */
-        padding: 30px 0px 0px 0px;
+        height: 450px;
+        width: 90%;
+        padding: 10px 20px;
     }
     .dish2{
         width: 100%;
@@ -434,9 +433,9 @@ body{
         flex-direction: column;
     }
     .dish2 img{
-        height: 500px;
-        width: 100%;
-        padding: 50px 0px 0px 0px;
+        height: 450px;
+        width: 90%;
+        padding: 10px 20px;
     }
     .dish2 h4{
         font-size: 20px;
