@@ -296,7 +296,7 @@ body{
         background-color: #f2f2f2;
         height: 100%;
         width: 100%;
-        margin-top: 155px;
+        /* margin-top: 145px; */
     }
     .content p{
         text-align: center;
@@ -389,7 +389,7 @@ body{
         text-transform: uppercase;
         letter-spacing: 2px;
        font-family:Verdana, Geneva, Tahoma, sans-serif;
-       padding: 0px 140px 0px 140px;
+       padding: 0px 125px 0px 125px;
 
     }
     .dishes{
@@ -417,7 +417,7 @@ body{
        
     }
     .dish1 a{
-        padding: 10px 0px 0px 150px;
+        padding: 10px 0px 0px 135px;
         color: black;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 600;
