@@ -43,7 +43,7 @@ body{
     color: black;
 }
 .content {
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
     height: 100%;
     width: 100%;
     margin-top: 180px;
@@ -293,10 +293,9 @@ body{
         color: black;
     }
     .content {
-        background-color: #f2f2f2;
         height: 100%;
         width: 100%;
-        /* margin-top: 145px; */
+        margin-top: 150px;
     }
     .content p{
         text-align: center;
