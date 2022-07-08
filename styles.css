@@ -1,6 +1,6 @@
 body{
     margin: auto;
-  
+    /* overflow: hidden; */
 }
 .navbar{
     height: 70px;
@@ -134,13 +134,14 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .introduction a{
-        color: black;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-       font-family:Verdana, Geneva, Tahoma, sans-serif;
-       padding: 0px 0px 0px 170px;
-
- }
+    /* text-decoration: none; */
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* text-decoration: underline; */
+   padding-left: 130px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 .dishes{
     background-color: #f1f1f1;
 
@@ -339,7 +340,7 @@ body{
        grid-row-gap: 8px;
        margin-top: -400px;
        position:absolute;
-      margin-left: 19 0px;
+      margin-left: 190px;
     
     
     }
@@ -362,7 +363,6 @@ body{
     .introduction{
         display: flex;
         flex-direction: column;
-       /* padding: 100px 0px; */
     }
     .introduction img{
         height: 450px;
@@ -388,8 +388,9 @@ body{
         color: black;
         text-transform: uppercase;
         letter-spacing: 2px;
-        text-align: center;
        font-family:Verdana, Geneva, Tahoma, sans-serif;
+       padding: 0px 0px 0px 170px;
+
     }
     .dishes{
         background-color: #f1f1f1;
