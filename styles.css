@@ -340,7 +340,7 @@ body{
        grid-row-gap: 8px;
        margin-top: -400px;
        position:absolute;
-      margin-left: 190px;
+      margin-left: 160px;
     
     
     }
@@ -381,7 +381,7 @@ body{
     }
     .introduction p{
         text-align: center;
-        padding: 10px 70px 10px 70px;
+        padding: 10px 50px 10px 50px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .introduction a{
@@ -389,7 +389,7 @@ body{
         text-transform: uppercase;
         letter-spacing: 2px;
        font-family:Verdana, Geneva, Tahoma, sans-serif;
-       padding: 0px 0px 0px 155px;
+       padding: 0px 0px 0px 150px;
 
     }
     .dishes{
@@ -421,12 +421,13 @@ body{
         color: black;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 600;
+        padding: 5px 0px 0px 150px;
     }
     .dish1 img{
         height: 500px;
         width: 100%;
         /* justify-content: center; */
-        padding: 30px 0px 0px 0px;
+        padding: 30px 5px 0px 5px;
     }
     .dish2{
         width: 100%;
@@ -436,7 +437,7 @@ body{
     .dish2 img{
         height: 500px;
         width: 100%;
-        padding: 50px 0px 0px 0px;
+        padding: 50px 5px 0px 5px;
     }
     .dish2 h4{
         font-size: 20px;
@@ -469,11 +470,12 @@ body{
     }
     .online-class p{
         text-align: center;
-        font-size: 17px;
+        font-size: 16px;
     }
     .images{
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
     }
     .images img{
         height: 400px;
@@ -485,7 +487,7 @@ body{
     .aboutus h3{
         font-size: 17px;
         text-align: center;
-        padding: 40px 0px 20px 0px ;
+        padding: 40px 5px 20px 5px ;
     }
     .logos{
         display: flex;
