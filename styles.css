@@ -1,5 +1,6 @@
 body{
-    margin: 0;
+    margin: auto;
+    overflow: hidden;
 }
 .navbar{
     height: 70px;
@@ -161,7 +162,7 @@ body{
     text-align: justify;
     padding: 0px 100px 30px 180px;
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
    
 }
 .dish1 a{
@@ -199,7 +200,7 @@ body{
     text-align: justify;
     font-size: 22px;
     padding: 0px 150px 0px 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 .dish2 h6{
     font-size: 15px;
@@ -247,55 +248,55 @@ body{
 
 
 
-@media screen and (max-width:600px) {
-    body{
-        width: 540px;
-        margin: 0;
+@media screen and (max-width:800px) {
+    html,body{
+        width: 100%;
+        margin: auto;
         overflow-x: hidden;
     }
     
     .navbar{
-        height: 70px;
-        width: 540px;
+        height: 50px;
+        width: 100%;
         background-color:black;
     }
     .navbar img{
-        height: 50px;
-        width: 50px;
-       padding-top: 10px;
+        height: 35px;
+        width: 40px;
+       /* padding-top: 10px; */
     
     }
     .navbar a{
         float: right;
-        padding: 25px 10px;
+        padding: 15px 12px;
         text-decoration: none;
         color: aqua;
-        font-size: 20px;
+        font-size: 18px;
     }
     .main img{
-        width: 540px;
+        width: 100%;
         height: 100vh;
         background: fixed;
     }
     .main h1{
         text-align: center;
-        margin-top: -150px;
-       font-size: 35px;
+        margin-top: -180px;
+       font-size: 27px;
        color:black;
      
     }
     .main p{
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
         /* font-weight: 500; */
-        margin-top: -140px;
+        margin-top: -130px;
         color: black;
     }
     .content {
         background-color: #f2f2f2;
         height: 100%;
-        width: 540px;
-        margin-top: 120px;
+        width: 100%;
+        margin-top: 170px;
     }
     .content p{
         text-align: center;
@@ -311,51 +312,51 @@ body{
         flex-direction: column;
     }
     .leftside{
-        width: 540px;
+        width: 100%;
         color: grey;
         text-align: center;
     }
     .rightside{
-        width: 540px;
+        width: 100%;
         color: grey;
     }
     .menu p{
         padding: 15px;
     }
     .item img{
-        width: 540px;
+        width: 100%;
         height:450px;
     }
     .item{
         position: relative;
     }
     .griditem{
-        width: 540px;
+        width: 100%;
         height: 250px;
        display: grid;
        grid-template-columns: 120px 120px ;
-       grid-template-rows: 100px 100px 100px;
-       grid-column-gap: 10px;
-       grid-row-gap: 10px;
+       grid-template-rows: 115px 115px 115px;
+       grid-column-gap: 8px;
+       grid-row-gap: 8px;
        margin-top: -400px;
        position:absolute;
-      margin-left: 270px;
+      margin-left: 19 0px;
     
     
     }
     .griditem i{
         text-align: center;
         padding-top: 30px;
-        font-size: 15px;
+        font-size: 12px;
         background-color:black;
         opacity: 0.6;
         color: white;
         line-height: 20px;
     }
     .history{
-        /* margin-top: 0px; */
+        margin-top: -4px;
         height: 100%;
-        width: 540px;
+        width: 100%;
         background-color: beige;
         
     }
@@ -366,8 +367,8 @@ body{
     }
     .introduction img{
         height: 450px;
-        width: 450px;
-        padding: 10px 50px;
+        width: 90%;
+        padding: 10px 20px;
     }
     .introduction h4{
         text-align: center;
@@ -388,58 +389,60 @@ body{
         color: black;
         text-transform: uppercase;
         letter-spacing: 2px;
-       padding: 20px 210px 0px 210px;
+        text-align: center;
        font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
     .dishes{
         background-color: #f1f1f1;
-        width: 540px;
+        width: 100%;
     }
     .dish1{
-        width: 540px;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        /* justify-content: center; */
         
     }
     .dish1 h1{
-        text-align: justify;
-        padding: 50px 0px 0px 50px;
+        text-align: center;
+        padding: 30px 0px 0px 10px;
         font-size: 25px;
        
     }
     .dish1 p{
-        text-align: justify;
-        padding: 0px 70px 0px 50px;
+        padding: 3px 20px 0px 20px;
+        text-align: center;
         font-size: 15px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
        
     }
     .dish1 a{
-        padding: 10px 0px 0px 50px;
+        padding: 10px 0px 0px 150px;
         color: black;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 600;
     }
     .dish1 img{
         height: 500px;
-        width: 480px;
-        padding: 40px 70px 0px 30px;
+        width: 100%;
+        /* justify-content: center; */
+        padding: 30px 0px 0px 0px;
     }
     .dish2{
-        width: 540px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
     .dish2 img{
         height: 500px;
-        width: 480px;
-        padding: 40px 70px 0px 30px;
+        width: 100%;
+        padding: 50px 0px 0px 0px;
     }
     .dish2 h4{
         font-size: 20px;
+        text-align: justify;
         font-weight: 100;
         padding: 50px 0px 0px 50px;
-        /* padding: 10px 50px 0px 100px; */
     }
     .dish2 h2{
         font-size: 30px;
@@ -449,8 +452,8 @@ body{
     .dish2 p{
         text-align: justify;
         font-size: 15px;
-        padding: 0px 70px 0px 50px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 0px 5px 0px 50px;
+        /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     }
     .dish2 h6{
         font-size: 15px;
@@ -458,7 +461,7 @@ body{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     } 
     .online-class{
-        width: 540px;
+        width: 100%;
     }
     .online-class h1{
         text-align: center;
@@ -466,23 +469,23 @@ body{
     }
     .online-class p{
         text-align: center;
-        font-size: 20px;
+        font-size: 17px;
     }
     .images{
         display: flex;
         flex-direction: column;
     }
     .images img{
-        height: 500px;
-        width: 540px;
+        height: 400px;
+        width: 100%;
     }
     .aboutus{
-        width: 540px;
+        width: 100%;
     }
     .aboutus h3{
-        font-size: 20px;
+        font-size: 17px;
         text-align: center;
-        padding: 40px 10px 20px 10px ;
+        padding: 40px 0px 20px 0px ;
     }
     .logos{
         display: flex;
