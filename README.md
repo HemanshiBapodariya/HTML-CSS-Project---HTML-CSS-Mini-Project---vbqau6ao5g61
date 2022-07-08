@@ -21,4 +21,4 @@
 * Open index.html in your browser
 
 # Note 
-This site best viewed in Google Chrome
+This site best viewed in Google Chrome.
